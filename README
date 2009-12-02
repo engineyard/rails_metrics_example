@@ -1,0 +1,19 @@
+== Rails Metrics
+
+This an example app using Rails Metrics gem for Rails 3.0.
+
+== Get it running
+
+Since it relies on Rails 3.0 edge, which is vendored, you need the following steps to make this example work (while Rails 3.0 is not released):
+
+  git submodule update --init
+  cd vendor/rails
+
+  # Install bundler
+  sudo gem install bundler
+
+  # If you don't have mysql or postgresql installed, comment them on the Gemfile
+  vim Gemfile
+  gem bundle
+
+That's it, have fun!

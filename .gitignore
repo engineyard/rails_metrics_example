@@ -1,0 +1,9 @@
+.autotest
+.DS_STORE
+log/*
+tmp/*
+*~
+coverage/*
+public/system/*
+public/cache/*
+*.sqlite3
