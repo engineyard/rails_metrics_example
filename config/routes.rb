@@ -1,7 +1,7 @@
 MetricsExample::Application.routes.draw do |map|
   resources :users
 
-  root "users#index"
+  root :to => "users#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
