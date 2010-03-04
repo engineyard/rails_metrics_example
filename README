@@ -12,7 +12,7 @@ To get it running, do:
 
   3) rake db:create & rake db:migrate
 
-  4) script/server
+  4) rails server
 
 Access the home page of the application and navigate a little on your application. When you are done, access "/rails_metrics" to see some metrics.
 
